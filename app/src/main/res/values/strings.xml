@@ -15,4 +15,8 @@
     <string name="dica_cvc">CVC</string>
     <string name="finalizar_compra">FINALIZAR COMPRA</string>
     <string name="mascara_nome_no_cartao">abcdefghijklmnopqrstuvwxyzçABCDEFGHIJKLMNOPQRSTUVWXYZÇ</string>
+    <string name="texto_parabens">Parabéns!</string>
+    <string name="mensagem_compra_realizada_com_sucesso">Compra realizada com sucesso :)</string>
+    <string name="mensagem_confira_o_resumo_da_compra">Confira o resumo da compra:</string>
+    <string name="imagem_pacote">descricao</string>
 </resources>
