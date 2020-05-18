@@ -6,4 +6,13 @@
     <string name="realizar_pagamento">REALIZAR PAGAMENTO</string>
     <string name="imagem_do_pacote">imagem do pacote</string>
     <string name="preco_final">Preço final:</string>
+    <string name="pagamento_orientacao">Digite as informações do cartão de crédito que você deseja usar para o pagamento</string>
+    <string name="valor_da_compra">Valor da compra:</string>
+    <string name="numero_do_cartao">Número do cartão</string>
+    <string name="dica_mes">MM</string>
+    <string name="dica_ano">AA</string>
+    <string name="dica_nome_no_cartao">Nome no cartão</string>
+    <string name="dica_cvc">CVC</string>
+    <string name="finalizar_compra">FINALIZAR COMPRA</string>
+    <string name="mascara_nome_no_cartao">abcdefghijklmnopqrstuvwxyzçABCDEFGHIJKLMNOPQRSTUVWXYZÇ</string>
 </resources>

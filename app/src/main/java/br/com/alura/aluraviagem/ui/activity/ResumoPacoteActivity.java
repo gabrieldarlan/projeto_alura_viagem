@@ -2,6 +2,7 @@ package br.com.alura.aluraviagem.ui.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 
 import java.math.BigDecimal;
 
+import br.com.alura.aluraviagem.PagamentoActivity;
 import br.com.alura.aluraviagem.R;
 import br.com.alura.aluraviagem.model.Pacote;
 import br.com.alura.aluraviagem.util.DataUtil;
@@ -36,6 +38,8 @@ public class ResumoPacoteActivity extends AppCompatActivity {
         mostraPreco(pacoteSaoPaulo);
         mostraData(pacoteSaoPaulo);
 
+        Intent intent = new Intent(this, PagamentoActivity.class);
+        startActivity(intent);
     }
 
     private void mostraData(Pacote pacote) {
