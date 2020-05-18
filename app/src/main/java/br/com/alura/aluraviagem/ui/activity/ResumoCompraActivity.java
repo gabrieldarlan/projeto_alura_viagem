@@ -33,6 +33,14 @@ public class ResumoCompraActivity extends AppCompatActivity {
         carregaPacoteRecebido();
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(this, ListaPacotesActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+    }
+
     private void carregaPacoteRecebido() {
         Intent intent = getIntent();
         if (intent.hasExtra(CHAVE_PACOTE)) {
