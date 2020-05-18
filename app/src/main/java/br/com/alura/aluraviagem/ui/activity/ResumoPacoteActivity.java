@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import java.math.BigDecimal;
 
-import br.com.alura.aluraviagem.PagamentoActivity;
 import br.com.alura.aluraviagem.R;
 import br.com.alura.aluraviagem.model.Pacote;
 import br.com.alura.aluraviagem.util.DataUtil;

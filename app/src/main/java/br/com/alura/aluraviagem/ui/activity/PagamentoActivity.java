@@ -1,13 +1,15 @@
-package br.com.alura.aluraviagem;
+package br.com.alura.aluraviagem.ui.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 import java.math.BigDecimal;
 
+import br.com.alura.aluraviagem.R;
 import br.com.alura.aluraviagem.model.Pacote;
 import br.com.alura.aluraviagem.util.MoedaUtil;
 
@@ -28,6 +30,8 @@ public class PagamentoActivity extends AppCompatActivity {
 
         mostraPreco(pacoteSaoPaulo);
 
+        Intent intent = new Intent(this, ResumoCompraActivity.class);
+        startActivity(intent);
     }
 
     private void mostraPreco(Pacote pacote) {
